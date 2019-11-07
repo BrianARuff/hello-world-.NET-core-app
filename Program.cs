@@ -18,7 +18,7 @@ namespace Hello
         }
         
         static int FibonacciNumber(int n) {
-            n = n < 46 ? n : 46; // ensure n is always less than 1000 to avoid too much fibonacci sequence.
+            n = n < 46 ? n : 46; // ensure n is always less than 46 to avoid too much fibonacci sequence.
             int a = 0; 
             int b = 1;
             int tmp; // undeclared type int
